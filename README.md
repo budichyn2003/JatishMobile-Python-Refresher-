@@ -117,8 +117,8 @@ All transactions must have:
 ### 1. Setup Environment
 
 ```bash
-# Create virtual environment
-python -m venv venv
+# Create virtual environment ( tergantung kamu menggunakan py / python, namun di khususkan menggunakan 3.10)
+py -3.10 -m venv venv
 
 # Activate virtual environment
 # Windows:
@@ -132,6 +132,11 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+```paling penting
+pip install -e .
+```
+
 
 ### 3. Run ETL Pipeline (Example)
 

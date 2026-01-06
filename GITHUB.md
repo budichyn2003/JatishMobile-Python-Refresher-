@@ -15,6 +15,7 @@ Jika belum dilakukan, initialize repository lokal:
 ```bash
 cd banking_etl_assessment
 git init
+git pull origin main
 ```
 
 ## Step 2: Add All Files
@@ -191,3 +192,15 @@ Replace `USERNAME` with your GitHub username.
 ---
 
 **Need help?** Check the [Banking ETL Assessment README](README.md) for project information.
+
+
+# kalau sudah di cloning ( ada perubahan )
+git pull origin main ( kalau ada repo online ) 
+git add .
+git commit -m "fix: correct vector search bug"
+git push 
+
+# Cara menjalankan test
+python example.py ( untuk coba coba )
+pytest tests/ -q  ( untuk test semuanya )
+pytest tests/ -v ( untuk lihat spesifik )
